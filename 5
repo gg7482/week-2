@@ -1,0 +1,16 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <cmath>
+using namespace std;
+int main()
+{
+float b,leftside,rs1,rs2;
+cin>>b>>leftside;
+rs1=leftside*leftside+b*b;
+rs2=leftside*leftside-b*b;
+cout<<fixed;
+cout<<setprecision(5);
+cout<<sqrt(rs2)<<" "<<sqrt(rs1);
+return 0;
+}
